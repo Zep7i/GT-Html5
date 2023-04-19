@@ -1,0 +1,57 @@
+* {
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+
+body {
+    background-image: url(https://imgix.bustle.com/uploads/shutterstock/2020/2/12/c760fdbc-3cad-4b4c-bd72-b389400dd01d-shutterstock-1401778256.jpg?w=2000&h=1090&fit=crop&crop=faces&auto=format%2Ccompress);
+    background-repeat: repeat-y;
+    background-position: center;
+}
+
+.imperio li {
+    background-color: red;
+    margin-right: 1.7rem;
+}
+
+.rebeldes li {
+    background-color: blue;
+}
+
+.rebeldes h3 {
+    background-color: blue;
+}
+
+#vader {
+    font-size: 2rem;
+}
+
+#luke {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.tie_fighter {
+    text-transform: uppercase;
+}
+
+.halcon_milenario {
+    text-transform: uppercase;
+}
+
+.xwing {
+    text-transform: uppercase;
+}
+
+.tropa img {
+    border: 1rem 1rem 1rem 1rem;
+    border-style: dashed;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.tropa li {
+    letter-spacing: 0.2rem;
+}
