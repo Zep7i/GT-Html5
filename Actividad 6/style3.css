@@ -1,0 +1,25 @@
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#container #navbar {
+    background-color: #118AB2;
+}
+
+#container #contenido {
+    width: 70%;
+    background-color: #118AB2;
+    float: left;
+}
+
+#container #sidebar {
+    width: 30%;
+    background-color: #EF476F;
+    float: left;
+}
+
+#container #navbar a {
+    color: white;
+    text-decoration: none;
+}
