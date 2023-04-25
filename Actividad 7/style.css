@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    display: none;
+}
+
+.caja {
+    background-color: white;
+    text-align: center;
+    padding: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    color: white;
+    float: unset;
+}
+
+@media only screen and (max-width: 600px) {
+    .caja {
+        background-color: red;
+    }
+    #Celular {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+    .caja {
+        background-color: white;
+    }
+    #Normal {
+        display: block;
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .caja {
+        background-color: blue;
+    }
+    #Laptop {
+        display: block;
+    }
+}
