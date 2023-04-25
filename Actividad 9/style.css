@@ -1,0 +1,33 @@
+* {
+    margin: 0 auto;
+}
+
+header {
+    margin-bottom: 16%;
+}
+
+#pan {
+    height: 2rem;
+    width: 50%;
+    padding: 1rem;
+    background-color: #DEB887;
+    border-top-left-radius: 5rem;
+    border-top-right-radius: 5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    border-bottom-style: outset;
+    border-bottom-color: #B5956C;
+    border-bottom-width: 0.8rem;
+}
+
+#pan:nth-last-of-type(1) {
+    transform: rotate(180deg);
+}
+
+#salchicha {
+    height: 2rem;
+    width: 55%;
+    padding: 1rem;
+    background-color: #A52A2A;
+    border-radius: 5rem;
+}
