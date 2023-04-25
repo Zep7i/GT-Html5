@@ -1,0 +1,27 @@
+body {
+    font-family: 'Kanit', sans-serif;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#container img {
+    width: 30%;
+    margin: 1.4%;
+}
+
+#container a img {
+    width: 30%;
+    margin: 1.4%;
+}
+
+h1 {
+    width: 32.7%;
+    margin-left: 1.4%;
+    font-size: 40px;
+    text-transform: uppercase;
+    border-bottom: solid 2px red;
+    padding-bottom: 5px;
+}
