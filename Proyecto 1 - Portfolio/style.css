@@ -1,0 +1,125 @@
+html {
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #292e33;
+    padding: 0.8%;
+}
+
+footer p {
+    color: grey;
+    margin-bottom: 0;
+}
+
+form {
+    margin-left: 30%;
+}
+
+svg {
+    margin-left: 0.5rem;
+    height: 1.2rem;
+}
+
+a {
+    text-decoration-color: white;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 15px gray;
+    transition: all .2s ease-in-out;
+    transform: scale(1.05);
+}
+
+.Fernando {
+    width: 20%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left: 40%;
+    margin-bottom: 1%;
+}
+
+.card .aw {
+    height: 12rem;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.card {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-inline: 2%;
+}
+
+.card p {
+    margin: 0;
+    padding: 3px;
+    margin-bottom: 2px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.form-group.col-md-10 {
+    width: 120%;
+}
+
+.container button {
+    padding-left: 27%;
+    padding-right: 27%;
+    border-radius: 10px;
+    background-color: lightseagreen;
+}
+
+.container button:hover {
+    background-color: seagreen;
+    border: 1px solid white;
+}
+
+.fa-instagram {
+    background: rgb(137, 15, 221);
+    background: linear-gradient(90deg, rgba(137, 15, 221, 1) 0%, rgba(250, 22, 193, 1) 20%, rgba(255, 247, 107, 1) 80%, rgba(255, 134, 0, 1) 100%);
+}
+
+@media only screen and (max-width: 576px) {
+    .Fernando {
+        width: 40%;
+        height: 40%;
+        margin-left: 30%;
+    }
+
+    .card .aw {
+        height: 10rem;
+        width: 17rem;
+    }
+
+    .card {
+        height: 13rem;
+        width: 17rem;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        margin-top: 0.5rem;
+    }
+
+    form {
+        margin-left: 10%;
+    }
+
+    .form-group.col-md-10 {
+        width: 95%;
+    }
+
+    .container button {
+        padding-left: 40%;
+        padding-right: 40%;
+        margin-top: -10px;
+    }
+
+    h1 {
+        font-size: 150%;
+    }
+    h4 {
+        font-size: 100%;
+    }
+}
