@@ -1,0 +1,58 @@
+.colorNav {
+    background-color: antiquewhite;
+    border-bottom: 1px solid grey;
+}
+
+.card .card-img-top {
+    height: 65%;
+}
+
+.row {
+    margin-top: 0.5%;
+    margin-left: 0.5%;
+    width: 99%;
+}
+
+.bordesito {
+    border: 1px solid grey;
+}
+
+form.row.g-3.bordesito {
+    width: 41.3%;
+}
+
+.parrafos {
+    width: 57.74%;
+    float: right;
+    margin-right: 0.5%;
+}
+
+.rb-1 {
+    margin-bottom: 1rem;
+}
+
+.card img {
+    margin-top: 0.5rem;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+.centrar {
+    justify-content: center;
+}
+
+div.card {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 95%;
+}
+
+.btn.btn-outline-success {
+    background-color: lightgreen;
+    color: black;
+}
+
+.btn.btn-outline-success:hover {
+    background-color: darkseagreen;
+    color: white;
+}
